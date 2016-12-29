@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Airbnb</title>
+  	<meta charset="UTF-8">
+  	<title>Airbnb</title>
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<div class="container-fluid">
 	<!-- Comienzo Search Tam -->
 	<!-- Fin Search Tam  -->
 	<!-- Comienzo Advanced Filter Jose  -->
@@ -15,7 +17,16 @@
 	<!-- Fin Location Tam  -->
 	<!-- Comienzo Footer Vale  -->
 	<!-- Fin Footer Vale  -->
-  <script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="../source/js/search.js"></script>
+		<div class="row">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<img class="logo" src="img/logo.png">
+			</div>
+			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+				<input type="text" class="form-control" id="exampleInputAmount" placeholder="Search.">
+			</div>
+		</div>
+	</div>
+  	<script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
+  	<script type="text/javascript" src="../source/js/search.js"></script>
 </body>
 </html>	

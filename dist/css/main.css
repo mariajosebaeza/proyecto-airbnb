@@ -5806,14 +5806,6 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-<<<<<<< HEAD
-/*Comienzo Search Tam*/
-/*Fin Search Tam*/
-/*Comienzo Search Tam*/
-/*Fin Search Tam*/
-/*Comienzo Search Tam*/
-=======
-<<<<<<< HEAD
 /*VARIABLES GENERALES */
 /*Colores */
 /* Comienzo Majo */
@@ -5830,23 +5822,26 @@ button.close {
 /* Fin Nadia  */
 /* Comienzo Dani */
 /* Fin Dani */
-/* Comienzo Footer  Vale */
+/* Comienzo   Vale */
 /* Fin footer Vale */
+/* Comienzo Tam */
+/* Fin Tam */
+/*Comienzo Jose */
+/* Fin Jose */
+/*Comienzo Pachi */
+/* Fin Pachi */
 /* Comienzo Majo */
 /* Fin Majo  */
 /*Comienzo Nadia */
 /* Fin Nadia  */
 /* Comienzo Dani */
 /* Fin Dani */
-/* Comienzo Footer  Vale */
-/* Fin footer Vale */
-=======
->>>>>>> 4ae2a8a2c1eb432b70e769f0e0798946804be060
+/* Comienzo   Vale */
+/* Fin  Vale */
+/* Comienzo Tam */
 .logo {
   width: 100px;
-  border-right: 1px solid #DCE0E0;
-  border-bottom: 1px solid #DCE0E0; }
->>>>>>> 45706a4aafc2be708100a0d0a65fd6bba57be38a
+  border-right: 1px solid #DCE0E0; }
 
 .buscador {
   border: none;
@@ -5861,6 +5856,16 @@ button.close {
   margin-left: 16px;
   margin-top: 25px; }
 
-/*Fin Search Tam*/
+.nav-buscador {
+  border-bottom: 1px solid #DCE0E0; }
+
+.categorias {
+  margin-top: 10px; }
+
+/* Fin Tam */
+/*Comienzo Jose */
+/* Fin Jose */
+/*Comienzo Pachi */
+/* Fin Pachi */
 
 /*# sourceMappingURL=main.css.map */

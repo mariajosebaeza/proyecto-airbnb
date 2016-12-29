@@ -5806,9 +5806,38 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+<<<<<<< HEAD
+/*VARIABLES GENERALES */
+/*Colores */
+/* Comienzo Majo */
+/* Fin Majo  */
+/*Comienzo Nadia */
+/* Fin Nadia  */
+/* Comienzo Dani */
+/* Fin Dani */
+/* Comienzo Footer  Vale */
+/* Fin footer Vale */
+/* Comienzo Majo */
+/* Fin Majo  */
+/*Comienzo Nadia */
+/* Fin Nadia  */
+/* Comienzo Dani */
+/* Fin Dani */
+/* Comienzo Footer  Vale */
+/* Fin footer Vale */
+/* Comienzo Majo */
+/* Fin Majo  */
+/*Comienzo Nadia */
+/* Fin Nadia  */
+/* Comienzo Dani */
+/* Fin Dani */
+/* Comienzo Footer  Vale */
+/* Fin footer Vale */
+=======
 .logo {
   width: 100px;
   border-right: 1px solid #DCE0E0;
   border-bottom: 1px solid #DCE0E0; }
+>>>>>>> 45706a4aafc2be708100a0d0a65fd6bba57be38a
 
 /*# sourceMappingURL=main.css.map */

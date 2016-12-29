@@ -5806,5 +5806,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.logo {
+  width: 100px;
+  border-right: 1px solid #DCE0E0;
+  border-bottom: 1px solid #DCE0E0; }
 
 /*# sourceMappingURL=main.css.map */

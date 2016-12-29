@@ -7,24 +7,43 @@
 </head>
 <body>
 	<div class="container-fluid">
-	<!-- Majo , logo, menu , carrusel -->
-	<header>
-		<div class="row">
-			<div class="col">
-				<img src="img/logo.png" alt="" class="logo">
+		<!-- Majo , logo, menu , carrusel -->
+		<header>
+			<div class="row">
+				<div class="col-xs">
+					<img src="img/logo.png" alt="" class="logo">
+				</div>
 			</div>
-			<div class="col">
-			<nav>
-				<ul class="nav nav-pills">
-					<li role="presentation"><a href="#">Conviérte en anfitrión</a></li>
-  					<li role="presentation"><a href="#">Ayuda</a></li>
-					<li role="presentation"><a href="#">Registráte</a></li>
-					<li role="presentation"><a href="#">Iniciar Sesión</a></li>
-				</ul>
-			</nav>
-
-		</div>
-	</header>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="navbar-collapse-3">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">Conóceme</a></li>
+								<li><a href="#">Trabajos</a></li>
+								<li><a href="#">Fotografía</a></li>
+								<li><a href="#">Contacto</a></li>
+							</ul>
+							<div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse3">
+								<form class="navbar-form navbar-right" role="search">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Search" />
+									</div>
+									<button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+								</form>
+							</div>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container -->
+				</nav><!-- /.navbar -->
+			</header>
 	<!--  Fin Majo , logo, menu , carrusel -->
 	<!--Comienzo Nadia  -->
 	<div class="container-fluid">
@@ -100,5 +119,6 @@
 
   <script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
   <script type="text/javascript" src="../source/js/home.js"></script>
+  <script type="text/javascript" src="../node_modules/bootstrap-sass/assets/javascripts/bootstrap/bootstrap.js"></script>
 </body>
 </html>

@@ -68,7 +68,12 @@
 }
 
 .nav-buscador{
-	border-bottom: 1px solid $gris-lineas;
+	@include lineas-grises;
+}
+
+.fecha{
+	@include lineas-grises;
+	padding-bottom: 15px;
 }
 
 .categorias{

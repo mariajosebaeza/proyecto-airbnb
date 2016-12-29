@@ -3,6 +3,32 @@
 /*Comienzo Nadia */
 /* Fin Nadia  */
 /* Comienzo Dani */
+#seccionExperiencias {
+	float: left;
+	width: 601px;
+	overflow: hidden;
+	height: 205px;
+	position: relative;
+	margin-top: 20px;
+	.flecha {
+		position: absolute;
+		z-index: 1;
+		top: 50%;
+		margin-top: -9px;
+	}
+	.flechaIzq {
+		left: 10px;
+	}
+	.flechaDer {
+		right: 10px;
+	}
+	.carrusel {
+		width: 4000px;
+		left: 0px;
+		position: absolute;
+		z-index: 0;
+	}
+}
 /* Fin Dani */
 /* Comienzo   Vale */
 /* Fin  Vale */

@@ -5807,6 +5807,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -5820,6 +5821,8 @@ button.close {
 <<<<<<< HEAD
 >>>>>>> b41722cbecc8333b3faf1dca5c617e3369bc17f4
 >>>>>>> 9be305d12385159e63043b3b2d69be8f56f1721c
+=======
+>>>>>>> 9b04775f7549f9be400d64d9c51d1266ff80c20c
 /*VARIABLES GENERALES */
 /*Colores */
 /* Comienzo Majo */
@@ -5830,6 +5833,8 @@ button.close {
 /* Fin Dani */
 /* Comienzo Footer  Vale */
 /* Fin footer Vale */
+/* Comienzo  Pachi */
+/* Fin Pachi */
 /* Comienzo Majo */
 /* Fin Majo  */
 /*Comienzo Nadia */
@@ -5850,10 +5855,10 @@ button.close {
 /* Fin Nadia  */
 /* Comienzo Dani */
 /* Fin Dani */
-<<<<<<< HEAD
 /* Comienzo   Vale */
 /* Fin  Vale */
 /* Comienzo Tam */
+<<<<<<< HEAD
 .logo {
   width: 100px;
   border-right: 1px solid #DCE0E0; }
@@ -5868,11 +5873,14 @@ button.close {
 =======
 >>>>>>> 4ae2a8a2c1eb432b70e769f0e0798946804be060
 >>>>>>> b41722cbecc8333b3faf1dca5c617e3369bc17f4
+=======
+>>>>>>> 9b04775f7549f9be400d64d9c51d1266ff80c20c
 .logo {
   width: 100px;
   border-right: 1px solid #DCE0E0;
   border-bottom: 1px solid #DCE0E0; }
 
+<<<<<<< HEAD
 /* Fin Tam */
 /*Comienzo Jose */
 /* Fin Jose */
@@ -5880,6 +5888,8 @@ button.close {
 /* Fin Pachi */
 >>>>>>> 9be305d12385159e63043b3b2d69be8f56f1721c
 
+=======
+>>>>>>> 9b04775f7549f9be400d64d9c51d1266ff80c20c
 .buscador {
   border: none;
   margin-top: 20px;
@@ -5893,12 +5903,15 @@ button.close {
   margin-left: 16px;
   margin-top: 25px; }
 
+<<<<<<< HEAD
 .nav-buscador {
   border-bottom: 1px solid #DCE0E0; }
 
 .categorias {
   margin-top: 10px; }
 
+=======
+>>>>>>> 9b04775f7549f9be400d64d9c51d1266ff80c20c
 /* Fin Tam */
 /*Comienzo Jose */
 /* Fin Jose */

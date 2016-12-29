@@ -5806,9 +5806,29 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/*Comienzo Search Tam*/
+/*Fin Search Tam*/
+/*Comienzo Search Tam*/
+/*Fin Search Tam*/
+/*Comienzo Search Tam*/
 .logo {
   width: 100px;
   border-right: 1px solid #DCE0E0;
   border-bottom: 1px solid #DCE0E0; }
+
+.buscador {
+  border: none;
+  margin-top: 20px;
+  width: 50%;
+  float: left;
+  padding-left: 55px; }
+
+.icon-search {
+  font-size: 25px;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 25px; }
+
+/*Fin Search Tam*/
 
 /*# sourceMappingURL=main.css.map */

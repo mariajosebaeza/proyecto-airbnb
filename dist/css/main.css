@@ -5806,15 +5806,47 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+<<<<<<< HEAD
 /*Comienzo Search Tam*/
 /*Fin Search Tam*/
 /*Comienzo Search Tam*/
 /*Fin Search Tam*/
 /*Comienzo Search Tam*/
+=======
+<<<<<<< HEAD
+/*VARIABLES GENERALES */
+/*Colores */
+/* Comienzo Majo */
+/* Fin Majo  */
+/*Comienzo Nadia */
+/* Fin Nadia  */
+/* Comienzo Dani */
+/* Fin Dani */
+/* Comienzo Footer  Vale */
+/* Fin footer Vale */
+/* Comienzo Majo */
+/* Fin Majo  */
+/*Comienzo Nadia */
+/* Fin Nadia  */
+/* Comienzo Dani */
+/* Fin Dani */
+/* Comienzo Footer  Vale */
+/* Fin footer Vale */
+/* Comienzo Majo */
+/* Fin Majo  */
+/*Comienzo Nadia */
+/* Fin Nadia  */
+/* Comienzo Dani */
+/* Fin Dani */
+/* Comienzo Footer  Vale */
+/* Fin footer Vale */
+=======
+>>>>>>> 4ae2a8a2c1eb432b70e769f0e0798946804be060
 .logo {
   width: 100px;
   border-right: 1px solid #DCE0E0;
   border-bottom: 1px solid #DCE0E0; }
+>>>>>>> 45706a4aafc2be708100a0d0a65fd6bba57be38a
 
 .buscador {
   border: none;

@@ -48,18 +48,6 @@
 /* Comienzo   Vale */
 /* Fin  Vale */
 /* Comienzo Tam */ 
-.logo{
-	@include logo;
-}
-
-.buscador{
-	border: none;
-	margin-top: 20px;
-	width: 50%;
-	float: left;
-	padding-left: 55px;
-}
-
 .icon-search{
 	font-size: 25px;
 	position: absolute;
@@ -69,19 +57,27 @@
 
 .nav-buscador{
 	@include lineas-grises;
+	.logo{
+		@include logo;
+	}
+	.buscador{
+		border: none;
+		margin-top: 20px;
+		width: 50%;
+		float: left;
+		padding-left: 55px;
+	}
 }
 
 .fecha{
 	@include lineas-grises;
 	padding-bottom: 15px;
-}
-
-.categorias{
-	margin-top: 20px;
-}
-
-.opciones{
-	padding-top: 15px;
+	.categorias{
+		margin-top: 20px;
+	}
+	.opciones{
+		padding-top: 15px;
+	}
 }
 /* Fin Tam */
 /*Comienzo Jose */ 

@@ -26,11 +26,22 @@
 	.flechaDer {
 		right: 10px;
 	}
-	.carrusel {
+	.carruselExperiencias {
 		width: 4000px;
 		left: 0px;
 		position: absolute;
 		z-index: 0;
+		.tarjeta {
+			float: left;
+			height: 203px;
+			margin-right: 5px;
+			width: 195px;
+			text-align:center;
+			border:#CCCCCC 1px solid;
+			img {
+				cursor:pointer;
+			}
+		}
 	}
 }
 /* Fin Dani */

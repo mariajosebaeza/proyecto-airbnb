@@ -1,0 +1,70 @@
+/* Comienzo Majo */
+.hamburguesa{
+	color: black; 
+}
+/* Fin Majo  */
+/*Comienzo Nadia */
+
+/* Fin Nadia  */
+/* Comienzo Dani */
+#seccionExperiencias {
+	float: left;
+	width: 601px;
+	overflow: hidden;
+	height: 205px;
+	position: relative;
+	margin-top: 20px;
+	.flecha {
+		position: absolute;
+		z-index: 1;
+		top: 50%;
+		margin-top: -9px;
+	}
+	.flechaIzq {
+		left: 10px;
+	}
+	.flechaDer {
+		right: 10px;
+	}
+	.carrusel {
+		width: 4000px;
+		left: 0px;
+		position: absolute;
+		z-index: 0;
+	}
+}
+/* Fin Dani */
+/* Comienzo   Vale */
+/* Fin  Vale */
+/* Comienzo Tam */ 
+.logo{
+	@include logo;
+}
+
+.buscador{
+	border: none;
+	margin-top: 20px;
+	width: 50%;
+	float: left;
+	padding-left: 55px;
+}
+
+.icon-search{
+	font-size: 25px;
+	position: absolute;
+	margin-left: 16px;
+	margin-top: 25px;
+}
+
+.nav-buscador{
+	border-bottom: 1px solid $gris-lineas;
+}
+
+.categorias{
+	margin-top: 10px;
+}
+/* Fin Tam */
+/*Comienzo Jose */ 
+/* Fin Jose */ 
+/*Comienzo Pachi */ 
+/* Fin Pachi */ 

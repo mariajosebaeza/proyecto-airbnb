@@ -14,14 +14,12 @@
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
-<<<<<<< HEAD
     "gull": "0.0.1"
-=======
     "gulp": "3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^3.0.0",
     "gulp-uglify": "^2.0.0"
->>>>>>> 0c0defcad78b09d1f3f83def0cc2c068a9376b2f
+
   }
 }

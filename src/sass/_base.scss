@@ -81,22 +81,24 @@
 }
 /* Fin Tam */
 /*Comienzo Jose */ 
-.advanced-filter {
-	
-	.fa-calendar {
-		font-size:20px;
-		margin-left:10px;
-	}
-	
-	.linea-borde {
-		border-bottom: 1px solid $gris-lineas;
-		padding-bottom:20px;
-		margin-bottom:20px;
+.padding-section{
+	margin-top:20px;
+		
+		.fa-calendar {
+			font-size:20px;
+			margin-left:10px;
+		}
+		
+		.linea-borde {
+			@include .nav-buscador;
+			padding-bottom:20px;
+			margin-bottom:20px;
+			padding-top:20px;
 
-	}
 
+		}
 
-
+/*224072983*/
 
 }
 

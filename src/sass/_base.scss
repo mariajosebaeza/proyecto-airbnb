@@ -74,6 +74,30 @@
 	.opciones{
 		padding-top: 15px;
 	}
+<<<<<<< HEAD
+}
+/* Fin Tam */
+/*Comienzo Jose */ 
+.padding-section{
+	margin-top:20px;
+		
+		.fa-calendar {
+			font-size:20px;
+			margin-left:10px;
+		}
+		
+		.linea-borde {
+			@include .nav-buscador;
+			padding-bottom:20px;
+			margin-bottom:20px;
+			padding-top:20px;
+
+
+		}
+
+/*224072983*/
+
+=======
 	.on-off{
 		margin-top: 10px;
 	}
@@ -101,6 +125,7 @@
 			margin-left: 0px;
 		}
 	}
+>>>>>>> 5b69e80cd6a42b51979c727393e2085b192897bc
 }
 /* Fin Tam */
 /*Comienzo Jose */ 

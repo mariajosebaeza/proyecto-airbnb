@@ -14,8 +14,12 @@
   },
   "devDependencies": {
     "bootstrap": "^3.3.7",
+<<<<<<< HEAD
+    "gulp": "^3.9.1",
+=======
     "gull": "0.0.1"
     "gulp": "3.9.1",
+>>>>>>> 5b69e80cd6a42b51979c727393e2085b192897bc
     "gulp-concat": "^2.6.1",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^3.0.0",

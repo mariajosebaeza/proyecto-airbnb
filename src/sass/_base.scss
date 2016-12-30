@@ -48,7 +48,7 @@
 /* Comienzo   Vale */
 /* Fin  Vale */
 /* Comienzo Tam */ 
-.icon-search{
+.icon-search2{
 	font-size: 25px;
 	position: absolute;
 	margin-left: 16px;
@@ -77,6 +77,30 @@
 	}
 	.opciones{
 		padding-top: 15px;
+	}
+	.rango{
+		max-width: 100%;
+	}
+	.icon-question{
+		margin-left: 10px;
+	}
+	.icon-power{
+		color: $amarillo;
+	}
+	.p-reserva{
+		margin-top: 15px;
+	}
+	.select-habitacion{
+		font-weight: normal;
+		margin-top: 5px;
+		background-color: $gris-fondos;
+		padding: 5px;
+		text-align: center;
+		.icon-casa{
+			position: relative;
+			font-size: 15px;
+			margin-left: 0px;
+		}
 	}
 }
 /* Fin Tam */

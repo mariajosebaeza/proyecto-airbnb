@@ -1,6 +1,8 @@
 /* Comienzo Majo */
-.hamburguesa{
-	color: black; 
+.titlecentral{
+	padding-left: 10%;
+.btnnovedades{
+	border-radius: 5%;
 }
 /* Fin Majo  */
 /*Comienzo Nadia */
@@ -26,29 +28,30 @@
 	.flechaDer {
 		right: 10px;
 	}
-	.carruselExperiencias {
+	.carrusel {
 		width: 4000px;
 		left: 0px;
 		position: absolute;
 		z-index: 0;
-		.tarjeta {
-			float: left;
-			height: 203px;
-			margin-right: 5px;
-			width: 195px;
-			text-align:center;
-			border:#CCCCCC 1px solid;
-			img {
-				cursor:pointer;
-			}
-		}
 	}
 }
 /* Fin Dani */
 /* Comienzo   Vale */
 /* Fin  Vale */
 /* Comienzo Tam */ 
-.icon-search2{
+.logo{
+	@include logo;
+}
+
+.buscador{
+	border: none;
+	margin-top: 20px;
+	width: 50%;
+	float: left;
+	padding-left: 55px;
+}
+
+.icon-search{
 	font-size: 25px;
 	position: absolute;
 	margin-left: 16px;
@@ -56,18 +59,11 @@
 }
 
 .nav-buscador{
-	@include lineas-grises;
-	.logo{
-		@include logo;
-	}
-	.buscador{
-		border: none;
-		margin-top: 20px;
-		width: 50%;
-		float: left;
-		padding-left: 55px;
-	}
+	border-bottom: 1px solid $gris-lineas;
 }
+
+.categorias{
+	margin-top: 10px;
 
 .fecha{
 	@include lineas-grises;
@@ -78,6 +74,30 @@
 	.opciones{
 		padding-top: 15px;
 	}
+<<<<<<< HEAD
+}
+/* Fin Tam */
+/*Comienzo Jose */ 
+.padding-section{
+	margin-top:20px;
+		
+		.fa-calendar {
+			font-size:20px;
+			margin-left:10px;
+		}
+		
+		.linea-borde {
+			@include .nav-buscador;
+			padding-bottom:20px;
+			margin-bottom:20px;
+			padding-top:20px;
+
+
+		}
+
+/*224072983*/
+
+=======
 	.on-off{
 		margin-top: 10px;
 		.toggle{
@@ -115,28 +135,10 @@
 			margin-left: 0px;
 		}
 	}
+>>>>>>> 5b69e80cd6a42b51979c727393e2085b192897bc
 }
 /* Fin Tam */
 /*Comienzo Jose */ 
-.advanced-filter {
-	
-	.fa-calendar {
-		font-size:20px;
-		margin-left:10px;
-	}
-	
-	.linea-borde {
-		border-bottom: 1px solid $gris-lineas;
-		padding-bottom:20px;
-		margin-bottom:20px;
-
-	}
-
-
-
-
-}
-
 /* Fin Jose */ 
 /*Comienzo Pachi */ 
 /* Fin Pachi */ 

@@ -100,6 +100,16 @@
 =======
 	.on-off{
 		margin-top: 10px;
+		.toggle{
+			border-radius: 15px;
+		}
+		.toggle-on{
+			background-color: $verde;
+			color: #FFFFFF;
+		}
+		.btn{
+			padding: 5px 20px;
+		}
 	}
 	.rango{
 		max-width: 100%;

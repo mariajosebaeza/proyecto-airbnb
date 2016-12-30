@@ -1,6 +1,8 @@
 /* Comienzo Majo */
-.hamburguesa{
-	color: black; 
+.titlecentral{
+	padding-left: 10%;
+.btnnovedades{
+	border-radius: 5%;
 }
 /* Fin Majo  */
 /*Comienzo Nadia */
@@ -26,28 +28,29 @@
 	.flechaDer {
 		right: 10px;
 	}
-	.carruselExperiencias {
+	.carrusel {
 		width: 4000px;
 		left: 0px;
 		position: absolute;
 		z-index: 0;
-		.tarjeta {
-			float: left;
-			height: 203px;
-			margin-right: 5px;
-			width: 195px;
-			text-align:center;
-			border:#CCCCCC 1px solid;
-			img {
-				cursor:pointer;
-			}
-		}
 	}
 }
 /* Fin Dani */
 /* Comienzo   Vale */
 /* Fin  Vale */
 /* Comienzo Tam */ 
+.logo{
+	@include logo;
+}
+
+.buscador{
+	border: none;
+	margin-top: 20px;
+	width: 50%;
+	float: left;
+	padding-left: 55px;
+}
+
 .icon-search{
 	font-size: 25px;
 	position: absolute;
@@ -56,18 +59,11 @@
 }
 
 .nav-buscador{
-	@include lineas-grises;
-	.logo{
-		@include logo;
-	}
-	.buscador{
-		border: none;
-		margin-top: 20px;
-		width: 50%;
-		float: left;
-		padding-left: 55px;
-	}
+	border-bottom: 1px solid $gris-lineas;
 }
+
+.categorias{
+	margin-top: 10px;
 
 .fecha{
 	@include lineas-grises;
@@ -78,6 +74,7 @@
 	.opciones{
 		padding-top: 15px;
 	}
+<<<<<<< HEAD
 }
 /* Fin Tam */
 /*Comienzo Jose */ 
@@ -100,8 +97,38 @@
 
 /*224072983*/
 
+=======
+	.on-off{
+		margin-top: 10px;
+	}
+	.rango{
+		max-width: 100%;
+	}
+	.icon-question{
+		margin-left: 10px;
+	}
+	.icon-power{
+		color: $amarillo;
+	}
+	.p-reserva{
+		margin-top: 15px;
+	}
+	.select-habitacion{
+		font-weight: normal;
+		margin-top: 5px;
+		background-color: $gris-fondos;
+		padding: 5px;
+		text-align: center;
+		.icon-casa{
+			position: relative;
+			font-size: 15px;
+			margin-left: 0px;
+		}
+	}
+>>>>>>> 5b69e80cd6a42b51979c727393e2085b192897bc
 }
-
+/* Fin Tam */
+/*Comienzo Jose */ 
 /* Fin Jose */ 
 /*Comienzo Pachi */ 
 /* Fin Pachi */ 
